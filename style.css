@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.container h1{
+    align-self: center;
+}
+
+.board{
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-evenly;
+}
+.X{
+    font-size: 3ch;
+    height: 100px;
+}
+.O{
+    font-size: 3ch;
+    height: 100px;
+}
